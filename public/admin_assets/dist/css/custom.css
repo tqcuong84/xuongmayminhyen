@@ -1,0 +1,108 @@
+.pull-left {
+    float: left;
+}
+.pull-right{
+    float: right;
+}
+.clear-float{
+    clear: both;
+}
+.ml-10{
+    margin-left: 10px;
+}
+.file-upload-progress-container:after{
+    content: "";
+    clear: both;
+}
+.file-upload-progress{
+    display: flex;
+    height: 12px;
+    overflow: hidden;
+    line-height: 0;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    margin-top: 5px;
+    box-shadow: none;
+    border-radius: 1px;
+    float: left;
+    width: 93%;
+}
+.file-upload-progress__progress-bar{
+    background-image: linear-gradient(
+        45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+    background-size: 1rem 1rem;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #007bff;
+    transition: width .6s ease;
+}
+.file-upload-progress__cancel-upload{
+    float: right;
+    margin-top: -5px;
+}
+.photo-view-container{
+    width: 100px;
+    border: 1px solid #CCC;
+    padding: 5px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.photo-view-container img {
+    max-width: 100%;
+}
+.photo-view-container__remove {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #e9ecef;
+}
+.photos-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.photo-view-item{
+    width: 200px;
+    border: 1px solid #CCC;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    position: relative;
+}
+.photo-view-item img {
+    max-width: 100%;
+}
+.photo-view-item__remove {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #e9ecef;
+}
+.pagination-container{
+    display: table;
+    margin: auto;
+}
+.large-input{
+    height: 50px;
+    font-size: 20px !important;
+}
+.medium-input{
+    height: 40px;
+    font-size: 18px !important;
+}
+.kilometers-text{
+    font-size: 20px !important;
+}
+.has-error .form-control{
+    border: 1px solid #dc3545;
+}
+.draggable-cursor{
+    cursor: move !important;
+}
