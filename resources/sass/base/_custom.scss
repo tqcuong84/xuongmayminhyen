@@ -147,9 +147,8 @@
   .zalo-chat-widget{
     position: fixed;
     display: block !important;
-    right: auto !important;
-    left: 10px !important;
-    bottom: 10px !important;
+    right: 10px !important;
+    bottom: 20px !important;
     z-index: 999;
   }
   /*
@@ -160,3 +159,15 @@
     }
   }
   */
+  .navbar-nav__phone{
+    @media (max-width: 768px) {
+      display: none !important
+    }
+    a {
+      margin-top: -12px;
+      img {
+        width: 40px;
+        height: auto;
+      }
+    }
+  }

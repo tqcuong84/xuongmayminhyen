@@ -53,7 +53,7 @@
     <link href="{{ asset('css/magnific-popup.css') }}" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="{{ asset('css/style.css') }}?v=7" rel="stylesheet">
+    <link href="{{ asset('css/style.css') }}?v=11" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -169,5 +169,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- Custom script for this template -->
     <script src="{{ asset('js/script.js') }}?v=3"></script>  
     @yield('js')
+    <a href="tel:{{ settings('phone') }}" class="suntory-alo-phone suntory-alo-green" id="suntory-alo-phoneIcon" style="left: 0px; bottom: -26px;">
+        <div class="suntory-alo-ph-circle"></div>
+        <div class="suntory-alo-ph-circle-fill"></div>
+        <div class="suntory-alo-ph-img-circle"><i class="fa fa-phone"></i></div>
+    </a>
 </body>
 </html>    

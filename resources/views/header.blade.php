@@ -19,6 +19,7 @@
                     <li><a href="{{ route('products') }}">Sản phẩm Gia Công</a></li>
                     <li><a href="javascript: void(0)" id="lnk-contactus">Báo Giá</a></li>
                     <li><a href="{{ route('machining-experience') }}">Kinh Nghiệm Gia Công</a></li>
+                    <li class="navbar-nav__phone"><a href="tel:{{ settings('phone') }}"><img src="/images/Circle-icons-phone.png" alt="" /></a></li>
                 </ul>
             </div><!-- end of nav-collapse -->
         </div><!-- end of container -->
