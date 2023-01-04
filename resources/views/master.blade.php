@@ -167,7 +167,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <script src="{{ asset('js/jquery-plugin-collection.js') }}"></script>
 
     <!-- Custom script for this template -->
-    <script src="{{ asset('js/script.js') }}?v=3"></script>  
+    <script src="{{ asset('js/script.js') }}?v=4"></script>  
     @yield('js')
     <a href="tel:{{ settings('phone') }}" class="suntory-alo-phone suntory-alo-green" id="suntory-alo-phoneIcon" style="left: 0px; bottom: -26px;">
         <div class="suntory-alo-ph-circle"></div>

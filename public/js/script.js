@@ -745,10 +745,10 @@
 
     $("#lnk-contactus").click(function() {
         if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {           
-            window.scrollTo(0,$("#contact-us-section").offset().top); // first value for left offset, second value for top offset
+            window.scrollTo(0,$("#contact-us").offset().top); // first value for left offset, second value for top offset
         }else{
             $('html, body').animate({
-                scrollTop: $("#contact-us-section").offset().top
+                scrollTop: $("#contact-us").offset().top
             }, 1000);
         }
     });

@@ -231,7 +231,7 @@ function gtag_report_conversion(url) {
 
 
     <!-- start rsvp-section -->
-    <section id="contact-us-section" class="rsvp-section section-padding parallax" @if($contact_banner) data-bg-image="{{ $contact_banner->banner_file }}" data-speed="7" @endif id="contact">
+    <section id="contact-us" class="rsvp-section section-padding parallax" @if($contact_banner) data-bg-image="{{ $contact_banner->banner_file }}" data-speed="7" @endif id="contact">
         <div class="container">
             <div class="row">
                 <div class="col col-xs-12">
